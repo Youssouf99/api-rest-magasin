@@ -1,0 +1,14 @@
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les dossiers et fichiers temporaires
+node_modules/
+*.env
+
+# Ignorer les fichiers générés par Docker
+docker-compose.override.yml
+*.swp

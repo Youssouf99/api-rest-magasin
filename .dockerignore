@@ -1,0 +1,34 @@
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers de dépendances et de caches Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorer les fichiers d'environnement (potentiellement sensibles)
+.env
+
+# Ignorer les fichiers de construction (builds ou dist)
+dist/
+build/
+
+# Ignorer les fichiers Docker et les logs générés
+Dockerfile
+.dockerignore
+
+# Ignorer les répertoires ou fichiers temporaires du système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers et répertoires liés à Git
+.git/
+.gitignore
+
+# Ignorer les fichiers spécifiques aux tests locaux
+test/
+tests/
+*.test.js
+*.spec.js
