@@ -12,3 +12,4 @@ node_modules/
 # Ignorer les fichiers générés par Docker
 docker-compose.override.yml
 *.swp
+!.env.example
